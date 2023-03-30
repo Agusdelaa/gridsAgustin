@@ -1,0 +1,304 @@
+*{margin: 0; padding: 0;}
+/* Variables */
+
+/* GRIDS */
+.gridPagIndex{
+    /* 1 columna 3 filas (header, main footer) */
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto;
+}
+/* lineas para q reconozca cada cosa */
+header{grid-area:header;}
+main{grid-area:main;}
+footer{grid-area:footer;}
+
+/* FLEX */
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+/* BOX MODELING */
+header{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+main,footer{
+    background-color: #151515;
+}
+.p20{
+    padding: 20px;
+}
+.mt20{
+    margin-top: 20px;
+}
+.mb20{
+    margin-bottom: 20px;
+}
+.margen10{
+margin: 10px 10px;
+}
+.margen5{
+    margin: 5px;
+}
+.mgAr5Ab10{
+    margin: 5px 0px 10px;
+}
+.titulosDorados{
+    font-size: 30px;
+    color: #a88231;
+    font-weight: bold;
+    text-align: center;
+}
+.titulosDoradosDisc{
+    font-size: 22px;
+    color: #a88231;
+    font-weight: bold;
+    text-align: center;
+}
+.centrar{
+    text-align: center;
+}
+.padding20{
+    padding: 20px;
+}
+/* Footer icons */
+.logosRRSS{
+    text-align: center;
+}
+.iconosFooter{
+    color: #fff;
+    font-size: 30px;
+    margin: 10px 30px;
+}
+/* GENERAL */
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+li{
+    display: inline-block;
+    padding: 20px;
+}
+nav{
+    text-align: center;
+    justify-content: center;
+}
+input{
+    width: 100%;
+}
+.listaHeader{
+    text-align: center;
+    justify-content: center;
+}
+.listaHeader a{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+}
+.imgFluid{width:100%;height: auto;}
+
+.fWhite{
+    color: #7b7b7b;
+}
+.fBlank{
+    color: #fff;
+}
+.imgGiras{
+    border-radius: 5%;
+    margin: 10px 10px 0px 5px
+}
+.f20{
+    font-size: 20px;
+}
+.nuestrosContactos,.nuestrosHorarios{
+    background-color: #ff5a00;
+    margin: 30px 40px;
+    justify-content: center;
+}
+.circular{
+    border-radius: 5%;
+}
+.main__Cards--Input{
+    background-color: #151515;
+    width: 100%;
+    color: white;
+    border-radius: 10px;
+    text-decoration:none;
+}
+textarea{
+    width: 100%;
+}
+/*  */
+/* MOBILE */
+@media (max-width:768px){
+    .gridMerchandisingIndex{
+        display: flex;
+        flex-direction: column;
+    }
+    .main__Cards--Input{
+        width: 100%;
+    }
+    .gridDiscosIndex{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .gridContactoIndex{
+        display: flex;
+        flex-direction: column;
+    }
+    .gridGirasIndex{
+        display: flex;
+        flex-direction: column;
+    }
+    .gridMainIndex{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+/* Desktop */
+@media(min-width:1023px){
+/* grid index/home */
+.gridMainIndex{
+    display: grid;
+    grid-template-areas: 
+    "imgGeneral imgGeneral"
+    "tituloGen tituloGen"
+    "imgNosotros derechaImgIndex"
+    "textAbajoIndex textAbajoIndex";
+    grid-template-columns: 50% 50%;
+    grid-template-rows:auto auto auto auto;
+
+}
+.imgGeneral{grid-area:imgGeneral;}
+.tituloGen{grid-area: tituloGen;}
+.imgNosotros{grid-area: imgNosotros;}
+.derechaImgIndex{grid-area: derechaImgIndex;}
+.textAbajoIndex{grid-area: textAbajoIndex;}    
+/* Grid Giras */
+.gridGirasIndex{
+    display: grid;
+    grid-template-areas: 
+    "imgGeneral imgGeneral"
+    "tituloGen tituloGen"
+    "imgIzqGirasUno textDerGirasUno"
+    "imgIzqGirasDos textDerGirasDos"
+    "imgIzqGirasTres textDerGirasTres"
+    "imgIzqGirasCuatro textDerGirasCuatro"
+    "imgIzqGirasCinco textDerGirasCinco"
+    "imgIzqGirasSeis textDerGirasSiete";
+    grid-template-columns: 30% 70%;
+    grid-template-rows: repeat(8, auto);
+
+}
+/* lineas para que reconozca pag-giras  */
+.imgGeneral{grid-area:imgGeneral;}
+.tituloGen{grid-area: tituloGen;}
+.imgIzqGirasUno{grid-area:imgIzqGirasUno ;}
+.imgIzqGirasDos{grid-area: imgIzqGirasDos;}
+.imgIzqGirasTres{grid-area:imgIzqGirasTres ;}
+.imgIzqGirasCuatro{grid-area:imgIzqGirasCuatro ;}
+.imgIzqGirasCinco{grid-area:imgIzqGirasCinco ;}
+.imgIzqGirasSeis{grid-area:imgIzqGirasSeis ;}
+.textDerGirasUno{grid-area:textDerGirasUno ;}
+.textDerGirasDos{grid-area:textDerGirasDos ;}
+.textDerGirasTres{grid-area: textDerGirasTres;}
+.textDerGirasCuatro{grid-area: textDerGirasCuatro;}
+.textDerGirasCinco{grid-area: textDerGirasCinco;}
+.textDerGirasSiete{grid-area: textDerGirasSiete;}
+    /* Grid merchandising */
+.gridMerchandisingIndex{
+    display: grid;
+    grid-template-areas: 
+    "imgGeneral imgGeneral imgGeneral"
+    "tituloGen tituloGen tituloGen"
+    "cardUnoMerchandising cardDosMerchandising cardTresMerchandising"
+    "cardCuatroMerchandising cardCincoMerchandising cardSeisMerchandising ";
+    grid-template-columns: 33% 34% 33%;
+    grid-template-rows: repeat(4,auto);
+
+        
+}
+.imgGeneral{grid-area:imgGeneral;}
+.tituloGen{grid-area: tituloGen;}
+.cardUnoMerchandising{grid-area:cardUnoMerchandising ;}
+.cardDosMerchandising{grid-area:cardDosMerchandising ;}
+.cardTresMerchandising{grid-area:cardTresMerchandising ;}
+.cardCuatroMerchandising{grid-area:cardCuatroMerchandising ;}
+.cardCincoMerchandising{grid-area:cardCincoMerchandising ;}
+.cardSeisMerchandising{grid-area:cardSeisMerchandising ;}
+    /* Grid Discos */
+.gridDiscosIndex{
+    display: grid;
+    grid-template-areas: 
+    "imgGeneral imgGeneral imgGeneral imgGeneral"
+    "tituloGen tituloGen tituloGen tituloGen"
+    "iframeUno iframeDos iframeTres iframeCuatro"
+    "iframeCinco iframeSeis iframeSiete iframeOcho";
+    grid-template-columns: repeat(4,25%);
+    grid-template-rows: auto auto auto auto;
+}
+/* Lineas para q reconozca PAG-DISCOS */
+.imgGeneral{grid-area:imgGeneral;}
+.tituloGen{grid-area: tituloGen;}
+.iframeUno{grid-area: iframeUno;}
+.iframeDos{grid-area: iframeDos;}
+.iframeTres{grid-area: iframeTres;}
+.iframeCuatro{grid-area: iframeCuatro;}
+.iframeCinco{grid-area: iframeCinco ;}
+.iframeSeis{grid-area: iframeSeis;}
+.iframeSiete{grid-area: iframeSiete ;}
+.iframeOcho{grid-area: iframeOcho ;}
+/* Grid Pag-Contactos */
+.gridContactoIndex{
+    display: grid;
+    grid-template-areas: 
+    "imgGeneral imgGeneral"
+    "tituloGen tituloGen"
+    "imgDerFormContactos formIzqContactos"
+    "nuestrosContacto nuestrosHorarios";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: repeat(4, auto);
+
+}
+.imgGeneral{grid-area:imgGeneral;}
+.tituloGen{grid-area: tituloGen;}
+.imgDerFormContactos{grid-area:imgDerFormContactos ;}
+.formIzqContactos{grid-area:formIzqContactos;}
+.nuestrosContacto{grid-area:nuestrosContacto ;}
+.nuestrosHorarios{grid-area:nuestrosHorarios ;}
+/* Animaciones */
+.main__Cards--Input:hover{
+    background-color: white;
+    transition: 1s all;
+    color: #151515;   
+}
+
+.listaHeader a:hover{
+    color: #a88231;
+    transition: 1s all;
+}
+.iconosFooter:hover{
+    color: #a88231;
+    transition: 1s all;
+}
+}
+input{
+    width: 100%;
+}
