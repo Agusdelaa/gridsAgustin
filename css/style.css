@@ -120,8 +120,11 @@ input{
 }
 .imgGiras{
     border-radius: 5%;
-    margin: 10px 10px 0px 5px
+    margin: 10px 10px 0px 5px;
+    text-align: center;
+    justify-content: center;
 }
+
 .f20{
     font-size: 20px;
 }
