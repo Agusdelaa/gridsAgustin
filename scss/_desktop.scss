@@ -1,0 +1,127 @@
+/* Desktop */
+@media(min-width:1023px){
+    /* grid index/home */
+    .gridMainIndex{
+        display: grid;
+        grid-template-areas: 
+        "imgGeneral imgGeneral"
+        "tituloGen tituloGen"
+        "imgNosotros derechaImgIndex"
+        "textAbajoIndex textAbajoIndex";
+        grid-template-columns: 50% 50%;
+        grid-template-rows:auto auto auto auto;
+    
+    }
+    .imgGeneral{grid-area:imgGeneral;}
+    .tituloGen{grid-area: tituloGen;}
+    .imgNosotros{grid-area: imgNosotros;}
+    .derechaImgIndex{grid-area: derechaImgIndex;}
+    .textAbajoIndex{grid-area: textAbajoIndex;}    
+    /* Grid Giras */
+    .gridGirasIndex{
+        display: grid;
+        grid-template-areas: 
+        "imgGeneral imgGeneral"
+        "tituloGen tituloGen"
+        "imgIzqGirasUno textDerGirasUno"
+        "imgIzqGirasDos textDerGirasDos"
+        "imgIzqGirasTres textDerGirasTres"
+        "imgIzqGirasCuatro textDerGirasCuatro"
+        "imgIzqGirasCinco textDerGirasCinco"
+        "imgIzqGirasSeis textDerGirasSiete";
+        grid-template-columns: 30% 70%;
+        grid-template-rows: repeat(8, auto);
+    
+    }
+    /* lineas para que reconozca pag-giras  */
+    .imgGeneral{grid-area:imgGeneral;}
+    .tituloGen{grid-area: tituloGen;}
+    .imgIzqGirasUno{grid-area:imgIzqGirasUno ;}
+    .imgIzqGirasDos{grid-area: imgIzqGirasDos;}
+    .imgIzqGirasTres{grid-area:imgIzqGirasTres ;}
+    .imgIzqGirasCuatro{grid-area:imgIzqGirasCuatro ;}
+    .imgIzqGirasCinco{grid-area:imgIzqGirasCinco ;}
+    .imgIzqGirasSeis{grid-area:imgIzqGirasSeis ;}
+    .textDerGirasUno{grid-area:textDerGirasUno ;}
+    .textDerGirasDos{grid-area:textDerGirasDos ;}
+    .textDerGirasTres{grid-area: textDerGirasTres;}
+    .textDerGirasCuatro{grid-area: textDerGirasCuatro;}
+    .textDerGirasCinco{grid-area: textDerGirasCinco;}
+    .textDerGirasSiete{grid-area: textDerGirasSiete;}
+        /* Grid merchandising */
+    .gridMerchandisingIndex{
+        display: grid;
+        grid-template-areas: 
+        "imgGeneral imgGeneral imgGeneral"
+        "tituloGen tituloGen tituloGen"
+        "cardUnoMerchandising cardDosMerchandising cardTresMerchandising"
+        "cardCuatroMerchandising cardCincoMerchandising cardSeisMerchandising ";
+        grid-template-columns: 33% 34% 33%;
+        grid-template-rows: repeat(4,auto);
+    
+            
+    }
+    .imgGeneral{grid-area:imgGeneral;}
+    .tituloGen{grid-area: tituloGen;}
+    .cardUnoMerchandising{grid-area:cardUnoMerchandising ;}
+    .cardDosMerchandising{grid-area:cardDosMerchandising ;}
+    .cardTresMerchandising{grid-area:cardTresMerchandising ;}
+    .cardCuatroMerchandising{grid-area:cardCuatroMerchandising ;}
+    .cardCincoMerchandising{grid-area:cardCincoMerchandising ;}
+    .cardSeisMerchandising{grid-area:cardSeisMerchandising ;}
+        /* Grid Discos */
+    .gridDiscosIndex{
+        display: grid;
+        grid-template-areas: 
+        "imgGeneral imgGeneral imgGeneral imgGeneral"
+        "tituloGen tituloGen tituloGen tituloGen"
+        "iframeUno iframeDos iframeTres iframeCuatro"
+        "iframeCinco iframeSeis iframeSiete iframeOcho";
+        grid-template-columns: repeat(4,25%);
+        grid-template-rows: auto auto auto auto;
+    }
+    /* Lineas para q reconozca PAG-DISCOS */
+    .imgGeneral{grid-area:imgGeneral;}
+    .tituloGen{grid-area: tituloGen;}
+    .iframeUno{grid-area: iframeUno;}
+    .iframeDos{grid-area: iframeDos;}
+    .iframeTres{grid-area: iframeTres;}
+    .iframeCuatro{grid-area: iframeCuatro;}
+    .iframeCinco{grid-area: iframeCinco ;}
+    .iframeSeis{grid-area: iframeSeis;}
+    .iframeSiete{grid-area: iframeSiete ;}
+    .iframeOcho{grid-area: iframeOcho ;}
+    /* Grid Pag-Contactos */
+    .gridContactoIndex{
+        display: grid;
+        grid-template-areas: 
+        "imgGeneral imgGeneral"
+        "tituloGen tituloGen"
+        "imgDerFormContactos formIzqContactos"
+        "nuestrosContacto nuestrosHorarios";
+        grid-template-columns: 50% 50%;
+        grid-template-rows: repeat(4, auto);
+    
+    }
+    .imgGeneral{grid-area:imgGeneral;}
+    .tituloGen{grid-area: tituloGen;}
+    .imgDerFormContactos{grid-area:imgDerFormContactos ;}
+    .formIzqContactos{grid-area:formIzqContactos;}
+    .nuestrosContacto{grid-area:nuestrosContacto ;}
+    .nuestrosHorarios{grid-area:nuestrosHorarios ;}
+    /* Animaciones */
+    .main__Cards--Input:hover{
+        background-color: white;
+        transition: 1s all;
+        color: #151515;   
+    }
+    
+    .listaHeader a:hover{
+        color: #a88231;
+        transition: 1s all;
+    }
+    .iconosFooter:hover{
+        color: #a88231;
+        transition: 1s all;
+    }
+    }

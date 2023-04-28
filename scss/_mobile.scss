@@ -1,0 +1,28 @@
+/* MOBILE */
+@media (max-width:768px){
+    .gridMerchandisingIndex{
+        display: flex;
+        flex-direction: column;
+    }
+    .main__Cards--Input{
+        width: 100%;
+    }
+    .gridDiscosIndex{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .gridContactoIndex{
+        display: flex;
+        flex-direction: column;
+    }
+    .gridGirasIndex{
+        display: flex;
+        flex-direction: column;
+    }
+    .gridMainIndex{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}

@@ -1,0 +1,95 @@
+*{margin: 0; padding: 0;}
+.p20{
+    padding: 20px;
+}
+.mt20{
+    margin-top: 20px;
+}
+.mb20{
+    margin-bottom: 20px;
+}
+.margen10{
+margin: 10px 10px;
+}
+.margen5{
+    margin: 5px;
+}
+.mgAr5Ab10{
+    margin: 5px 0px 10px;
+}
+.centrar{
+    text-align: center;
+}
+.padding20{
+    padding: 20px;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+li{
+    display: inline-block;
+    padding: 20px;
+}
+nav{
+    text-align: center;
+    justify-content: center;
+}
+input{
+    width: 100%;
+}
+.listaHeader{
+    text-align: center;
+    justify-content: center;
+}
+.listaHeader a{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+}
+.imgFluid{width:100%;height: auto;}
+
+.fWhite{
+    color: #7b7b7b;
+}
+.fBlank{
+    color: #fff;
+}
+.imgGiras{
+    border-radius: 5%;
+    margin: 10px 10px 0px 5px;
+    text-align: center;
+    justify-content: center;
+}
+
+.f20{
+    font-size: 20px;
+}
+.nuestrosContactos,.nuestrosHorarios{
+    background-color: #ff5a00;
+    margin: 30px 40px;
+    justify-content: center;
+}
+.circular{
+    border-radius: 5%;
+}
+.main__Cards--Input{
+    background-color: #151515;
+    width: 100%;
+    color: white;
+    border-radius: 10px;
+    text-decoration:none;
+}
+textarea{
+    width: 100%;
+}
+main,footer{
+    background-color: #151515;
+}
+input{
+    width: 100%;
+}

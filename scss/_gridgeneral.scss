@@ -1,0 +1,15 @@
+/* GRIDS */
+.gridPagIndex{
+    /* 1 columna 3 filas (header, main footer) */
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto;
+}
+/* lineas para q reconozca cada cosa su lugar */
+header{grid-area:header;}
+main{grid-area:main;}
+footer{grid-area:footer;}

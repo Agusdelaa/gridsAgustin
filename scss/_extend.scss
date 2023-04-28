@@ -1,0 +1,16 @@
+// EXTEND
+// CLASE BASE CREADA -> .boton
+.titulosDorados{
+    font-size: 30px;
+    color: #a88231;
+    font-weight: bold;
+    text-align: center;
+}
+@each $pag in disco{
+    .titulosDorados-#{$pag}{
+        @extend .titulosDorados;
+    }
+}
+.titulosDorados-disco{
+    font-size: 22px;
+}
