@@ -284,6 +284,12 @@ input {
   justify-content: center;
 }
 
+.rounded-5 {
+  border-radius: 2rem;
+  text-align: center;
+  justify-content: center;
+}
+
 .f20 {
   font-size: 20px;
 }
