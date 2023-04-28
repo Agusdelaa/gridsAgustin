@@ -25,7 +25,7 @@
   /* Grid Giras */
   .gridGirasIndex {
     display: grid;
-    grid-template-areas: "imgGeneral imgGeneral" "tituloGen tituloGen" "imgIzqGirasUno textDerGirasUno" "imgIzqGirasDos textDerGirasDos" "imgIzqGirasTres textDerGirasTres" "imgIzqGirasCuatro textDerGirasCuatro" "imgIzqGirasCinco textDerGirasCinco" "imgIzqGirasSeis textDerGirasSiete";
+    grid-template-areas: "imgGeneral imgGeneral" "tituloGen tituloGen" "imgIzqGirasUno textDerGirasUno" "imgIzqGirasDos textDerGirasDos" "imgIzqGirasTres textDerGirasTres" "imgIzqGirasCuatro textDerGirasCuatro" "imgIzqGirasCinco textDerGirasCinco" "imgIzqGirasSeis textDerGirasSeis";
     grid-template-columns: 30% 70%;
     grid-template-rows: repeat(8, auto);
   }
@@ -69,8 +69,8 @@
   .textDerGirasCinco {
     grid-area: textDerGirasCinco;
   }
-  .textDerGirasSiete {
-    grid-area: textDerGirasSiete;
+  .textDerGirasSeis {
+    grid-area: textDerGirasSeis;
   }
   /* Grid merchandising */
   .gridMerchandisingIndex {

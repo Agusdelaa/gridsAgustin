@@ -28,7 +28,7 @@
         "imgIzqGirasTres textDerGirasTres"
         "imgIzqGirasCuatro textDerGirasCuatro"
         "imgIzqGirasCinco textDerGirasCinco"
-        "imgIzqGirasSeis textDerGirasSiete";
+        "imgIzqGirasSeis textDerGirasSeis";
         grid-template-columns: 30% 70%;
         grid-template-rows: repeat(8, auto);
     
@@ -47,7 +47,7 @@
     .textDerGirasTres{grid-area: textDerGirasTres;}
     .textDerGirasCuatro{grid-area: textDerGirasCuatro;}
     .textDerGirasCinco{grid-area: textDerGirasCinco;}
-    .textDerGirasSiete{grid-area: textDerGirasSiete;}
+    .textDerGirasSeis{grid-area: textDerGirasSeis;}
         /* Grid merchandising */
     .gridMerchandisingIndex{
         display: grid;
